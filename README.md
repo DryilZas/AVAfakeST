@@ -14,9 +14,9 @@ a pesar de tener 256MB de RAM y un viejo AMD Athlon a 1.4 GHz,
 insisten en que: - Les instale "El Avast".   
 
 #### Objetivo final ####
-Hacer un entorno gráfico multilenguaje exáctamente igual que el de   
+Hacer un entorno gráfico multilenguaje exactamente igual que el de   
 "avast! Free Antivirus" (1988-2013 © AVAST Software a.s.), pero   
-totalmente infuncional.   
+totalmente inútil.   
 
 #### Objetivos para 0.9 Alpha ####
 Un menú en la barra de tareas completamente igual a su padre, la   
