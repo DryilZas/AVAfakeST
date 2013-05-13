@@ -16,25 +16,20 @@ While 1
     Select
         Case $msg = 0
             If $toggle = 0 Then
-  		    Sleep($timelag)
+  		Sleep($timelag)
                 $toggle = 1
-			Else
-				For $i = 145 To 154 Step +1
-				   Sleep($timerot)
-				   TraySetIcon("res/AvastUI_"&$i&".ico")
-			    Next
-				Sleep($timerot)
-				TraySetIcon("res/AvastUI_145.ico")
+	    Else
+                For $i = 145 To 154 Step +1
+		    Sleep($timerot)
+		    TraySetIcon("res/AvastUI_"&$i&".ico")
+		Next
+		Sleep($timerot)
+		TraySetIcon("res/AvastUI_145.ico")
                 $toggle = 0
             EndIf
         Case $msg = $exititem
             ExitLoop
     EndSelect
-
 WEnd
 
-
 Exit
-
-
-
